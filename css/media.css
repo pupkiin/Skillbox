@@ -1,0 +1,278 @@
+@media(max-width: 991px) {
+  .hero__content {
+    padding: 130px 0 135px 0;
+    background-image: url("../img/hero_img-768.png");
+    background-size: 330px 350.863px;
+    background-position: top 116px right;
+  }
+
+  .hero__title {
+    font-size: 50px;
+    margin-bottom: 14px;
+  }
+
+  .about__advantages_desrc {
+    padding-left: 240px;
+    background-size: 211px 187px;
+  }
+
+  .about__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+  }
+
+  .item__bullhorn {
+    padding-left: 16px;
+  }
+
+  .item__eye {
+    padding-right: 11px;
+  }
+
+  .item__victory {
+    padding-left: 10px;
+  }
+
+  .about {
+    padding-bottom: 75px;
+  }
+
+  .t-card-text {
+    letter-spacing: -0.2px;
+  }
+
+  .teachers__picture {
+    background-color: var(--dark-blue);
+  }
+
+  .card-body-courses {
+    padding-top: 34px;
+  }
+
+  .courses__card {
+    margin-top: 29px;
+  }
+
+  .c-card-text {
+    margin-bottom: 28px;
+  }
+
+  .courses__btn {
+    padding: 20.5px 55.5px;
+  }
+
+  .courses {
+    padding-bottom: 76px;
+  }
+
+  .courses__timing {
+    right: 9px;
+    top: 15px;
+  }
+
+  .footer__second_container {
+    line-height: 20px;
+  }
+
+}
+
+@media(max-width: 767px) {
+  .header__nav {
+    flex-direction: column;
+    gap: 31px;
+  }
+
+  .container {
+    padding: 0 33px;
+  }
+
+  .hero__container {
+    background: radial-gradient(49% 49% at 67.78% 84.57%, #555681 0%, #2E2B44 100%);
+  }
+
+  .hero__content {
+    background-image: none;
+    padding-top: 77px;
+    padding-bottom: 135px;
+  }
+
+  .hero__title {
+    margin-bottom: 17px;
+  }
+
+  .about__advantages_desrc {
+    padding-left: 180px;
+    background-position: left top;
+    background-size: 150px 134px;
+  }
+
+  .about__item {
+    gap: 11px;
+  }
+
+  .item__bullhorn {
+    padding-left: 19px;
+  }
+
+  .about {
+    padding-bottom: 55px;
+  }
+
+  .t-card-title {
+    margin-bottom: 9px;
+  }
+
+  .courses__card {
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-top: 30px;
+  }
+
+  .c-card-title {
+    line-height: 124%;
+  }
+
+  .card-body-courses {
+    padding-right: 23px;
+  }
+
+  .courses__btn {
+    padding: 20.5px 48px;
+  }
+
+  .c-card-text {
+    margin-bottom: 33px;
+  }
+
+  .courses__timing {
+    right: 10px;
+    top: 13px;
+  }
+}
+
+@media(max-width: 575px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .header__container {
+    padding: 0;
+  }
+
+  .header__nav {
+    display: flex;
+    justify-content: flex-start;
+    gap: 28px;
+    align-items: unset;
+    padding: 22px 0 25px 0;
+  }
+
+  .header__logo {
+    align-self: center;
+  }
+
+  .nav {
+    padding: 0 15px;
+    flex-wrap: nowrap;
+    overflow: scroll;
+  }
+
+  .hero__content {
+    padding: 50px 0;
+  }
+
+  .hero__title {
+    font-size: 30px;
+    margin-bottom: 4px;
+  }
+
+  .hero__descr {
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 46px;
+  }
+
+  .hero__btn {
+    padding: 20.5px 53.5px;
+    font-size: 16px;
+  }
+
+  .about__advantages_desrc {
+    background-image: none;
+    padding: 0;
+  }
+
+  .about {
+    padding: 50px 0;
+  }
+
+  .about__title {
+    font-size: 20px;
+    line-height: 130%;
+    margin-bottom: 1px;
+  }
+
+  .about__list {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .about__item {
+    align-items: center;
+    flex-direction: row;
+    padding: 0;
+    gap: 30px;
+  }
+
+  .teachers__title {
+    font-size: 20px;
+  }
+
+  .teachers {
+    padding-top: 50px;
+    padding-bottom: 47px;
+  }
+
+  .teacher__card {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .t-card-title {
+    margin-bottom: 7px;
+  }
+
+  .t-card-text {
+    letter-spacing: 0;
+  }
+
+  .courses {
+    padding-top: 49px;
+    padding-bottom: 50px;
+  }
+
+  .courses__title {
+    font-size: 20px;
+  }
+
+  .courses__card {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .card-body-courses {
+    padding: 32px 28px 28px 31px;
+    height: 473px;
+  }
+
+  .c-card-title {
+    line-height: 130%;
+  }
+
+  .courses__btn {
+    padding: 20.5px 55px;
+    font-size: 16px;
+  }
+}
